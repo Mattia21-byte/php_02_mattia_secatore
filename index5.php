@@ -7,9 +7,9 @@ $numbers = [1, 12, 34, 36, 37, 58, 41, 6, 99, 102, 106, 3, 33, 31, 86, 88, 40, 7
 $sum = 0;
 $count = 0;
 
-foreach ($numbers as $num) {
-    if ($num % 2 == 0) {
-        $sum += $num;
+foreach ($numbers as $number) {
+    if ($number % 2 == 0) {
+        $sum += $number;
         $count++;
     }
 }

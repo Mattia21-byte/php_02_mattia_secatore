@@ -4,7 +4,7 @@ require "./index7.php";
 
 $password = readline("Inserisci la tua password: ");
 
-result($password);
+
 
 //ciclo do/while per rendere continuativa la richiesta della password finché non è valida, quando è valida, il ciclo si interrompe e viene stampato "Password valida"
 do {
@@ -22,6 +22,7 @@ do {
         echo "Password valida.\n";
         break;
     }
+    $password = readline("Inserisci la tua password: ");
 } while (true);
 
 ?>

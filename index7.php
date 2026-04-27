@@ -61,15 +61,7 @@ return true;
 return false;
 }
 
-//6) devo implementare un metodo che faccia reinserire la password qualora anche una delle regole non fosse rispettata e che, invece, lo interrompa in caso di password accettata visualizzare in console quale regola non è stata rispettata.
-function result($password){
-if(checkLength($password) && checkUppercase($password) && checkLowercase($password) && checkNumber($password) && checkSpecialCharacter($password)){
-return "Password accettata.";
 
-}
-return "Password non accettata. Rispettare le regole.";
-
-}
 
 
 ?>
